@@ -1,0 +1,12 @@
+name: Spectator
+version: '${project.version}'
+main: net.daechler.spectator.Spectator
+api-version: 1.19
+authors: [Daechler]
+description: Spectator mode with some additional features.
+commands:
+  spectator:
+    description: Get into spectator mode.
+    aliases: s
+    usage: /spectator
+    permission: spectator.use
